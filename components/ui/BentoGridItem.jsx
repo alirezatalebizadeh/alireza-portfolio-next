@@ -1,5 +1,7 @@
 "use client"
-import { useState } from "react";
+import { useEffect, useState } from "react";
+// !Also install this npm i --save-dev @types/react-lottie
+import Lottie from "react-lottie";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 import { FaCheck } from "react-icons/fa";
@@ -7,12 +9,9 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 
-// !Also install this npm i --save-dev @types/react-lottie
-import Lottie from "react-lottie";
 
 import { BackgroundGradientAnimation } from "./GradientBg.jsx";
 // !import GridGlobe from "./GridGlobe";
-import { animationData } from "@/data/confetti.json";
 
 
 
@@ -31,15 +30,22 @@ export const BentoGridItem = ({
     const leftLists = ["ReactJS", "Express", "Typescript"];
     const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
 
+    const [animationData, setAnimationData] = useState(null);
     const [copied, setCopied] = useState(false);
 
+    useEffect(() => {
+        fetch("/confetti.json") // فایل در `public`
+            .then((res) => res.json())
+            .then((data) => setAnimationData(data))
+            .catch((err) => console.error("Error loading JSON:", err));
+    }, []);
+
+    if (!animationData) return <p>Loading...</p>;
+
     const defaultOptions = {
-        loop: copied,
-        autoplay: copied,
-        animationData: animationData,
-        rendererSettings: {
-            preserveAspectRatio: "xMidYMid slice",
-        },
+        loop: true,
+        autoplay: true,
+        animationData,
     };
 
     const handleCopy = () => {
