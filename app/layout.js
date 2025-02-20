@@ -1,3 +1,4 @@
+import { ThemeProvider } from "@/components/ui/ThemeProvider";
 import "./globals.css";
 
 export const metadata = {
@@ -7,8 +8,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fa">
-      <body className={`antialiased`}>{children}</body>
+    <html lang="fa" suppressHydrationWarning>
+      <body className={`antialiased`}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
