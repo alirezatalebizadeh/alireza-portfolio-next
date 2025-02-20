@@ -1,7 +1,9 @@
+"use client"
 import React from 'react'
-import { BentoGrid  } from './ui/BentoGrid'
-import { BentoGridItem } from './ui/BentoGridItem'
+import { BentoGrid, BentoGridItem } from './ui/BentoGrid'
 import { gridItems } from '@/data'
+
+
 
 const Grid = () => {
     return (
@@ -24,5 +26,7 @@ const Grid = () => {
         </section>
     )
 }
+
+
 
 export default Grid
