@@ -7,7 +7,6 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 
-
 // !Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
 
