@@ -25,7 +25,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "",
+    img: "/b5.svg",
     spareImg: "",
   },
   {
@@ -35,7 +35,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
-    img: "",
+    img: "/grid.svg",
     spareImg: "",
   },
   {
@@ -48,7 +48,6 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
     title: "الان در حال ساخت همین سایت شخصی هستم.",
@@ -61,7 +60,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "دوست داری یه پروژه با هم شروع و ادامش بدیم؟",
+    title: "میتونیم بیشتر با هم در ارتباط باشیم.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
