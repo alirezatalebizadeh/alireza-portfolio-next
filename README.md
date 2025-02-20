@@ -1,6 +1,16 @@
 
 # Personal Portfolio with next js 
 
+![Capture](https://github.com/user-attachments/assets/a0a75d4c-01da-407d-8d8c-74a73376fcff)
+![Capture1](https://github.com/user-attachments/assets/01eb9f8f-73e3-4973-9669-abb4baab25d8)
+![Capture2](https://github.com/user-attachments/assets/e75c405c-efa8-4cdf-ac50-83d04053467a)
+![Capture3](https://github.com/user-attachments/assets/688db4ed-a34f-4e5d-80e2-918bec484cba)
+
+
+
+
+
+
 این پروژه، پورتفولیوی شخصی من است که به کمک **React.js** ساخته شده است. در این پروژه از ابزارها و کتابخانه‌های مختلفی برای بهبود تجربه کاربری و طراحی استفاده شده است. دوست داشتم به یه کتابخونه خوب ui ؤو بیارم بالاو ولی متاسفانه توی vercel نتونستم اپلود کنم.
 
 ## 🚀 شروع پروژه
