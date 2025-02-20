@@ -1,7 +1,9 @@
+import Experience from "@/components/Experience";
+import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
+import RecentProjects from "@/components/RecentProject";
 import { FloatingNav } from "@/components/ui/FloadingNavbar";
-import ThemeToggle from "@/components/ui/ThemeToggle";
 
 export default function Home() {
   return (
@@ -13,7 +15,9 @@ export default function Home() {
         <Hero />
         <FloatingNav />
         <Grid />
-        
+        <Experience />
+        <RecentProjects />
+        <Footer />
       </div>
     </main>
   );
