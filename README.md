@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Personal Portfolio with next js 
 
-First, run the development server:
+این پروژه، پورتفولیوی شخصی من است که به کمک **React.js** ساخته شده است. در این پروژه از ابزارها و کتابخانه‌های مختلفی برای بهبود تجربه کاربری و طراحی استفاده شده است. دوست داشتم به یه کتابخونه خوب ui ؤو بیارم بالاو ولی متاسفانه توی vercel نتونستم اپلود کنم.
+
+## 🚀 شروع پروژه
+
+برای شروع و اجرای این پروژه روی سیستم خود، کافیست مراحل زیر را دنبال کنید:
+
+### ۱. کلون کردن پروژه
+
+برای دریافت پروژه به گیت‌هاب و استفاده از کدهای آن، ابتدا باید آن را کلون کنید:
+
+```bash
+git clone https://github.com/alirezatalebizadeh/alireza-portfolio-next.git
+```
+
+### ۲. نصب وابستگی‌ها
+
+برای نصب تمام وابستگی‌های پروژه از دستور زیر استفاده کنید:
+
+```bash
+npm install
+```
+
+### ۳. اجرای پروژه
+
+برای اجرای پروژه در محیط محلی، دستور زیر را وارد کنید:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+پروژه در حال حاضر در `http://localhost:3000` در دسترس خواهد بود.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🛠 ابزارها و تکنولوژی‌ها
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+در این پروژه از تکنولوژی‌ها و ابزارهای زیر استفاده شده است:
 
-## Learn More
+- **React.js**: برای ساخت رابط کاربری
+- **React-Icons**: برای اضافه کردن آیکون‌های مختلف
+- **Eternity UI**: برای طراحی اجزای رابط کاربری
+- **Lottie**: برای انیمیشن‌ها
+- **motion**: برای انیمیشن‌ها
+- **Next.js**: برای رندرینگ صفحات سرور و استفاده از مسیرهای داینامیک
 
-To learn more about Next.js, take a look at the following resources:
+## 📌 ویژگی‌ها
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **صفحات داینامیک**: شامل صفحات مربوط به پروژه‌ها، درباره من و تماس.
+- **انیمیشن‌های تعاملی**: استفاده از انیمیشن‌های جذاب با Lottie.
+- **واکنش‌گرا**: این پورتفولیو برای انواع دستگاه‌ها بهینه‌سازی شده است.
+- **دکمه‌های تعاملی و کپی**: برای راحتی بیشتر کاربران.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👨‍💻 نحوه مشارکت
 
-## Deploy on Vercel
+اگر می‌خواهید در این پروژه مشارکت کنید، لطفاً مراحل زیر را دنبال کنید:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. فورک کردن پروژه
+2. ایجاد یک شاخه جدید (branch)
+3. ایجاد تغییرات خود و ارسال درخواست (Pull Request)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📧 تماس
+
+اگر سوالی دارید یا نیاز به ارتباط بیشتر دارید، می‌توانید با من از طریق ایمیل زیر تماس بگیرید:
+
+📧 **alireza.talebizadeh78@gmail.com**
