@@ -83,6 +83,7 @@
   body {
     @apply text-foreground bg-white dark:bg-[#1a1a1a] text-white;
     direction: rtl;
+
     background-color: var(--background);
   }
   body.light {
